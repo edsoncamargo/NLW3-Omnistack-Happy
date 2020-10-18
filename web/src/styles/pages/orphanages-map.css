@@ -1,0 +1,109 @@
+#orphanages-map {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+}
+
+#orphanages-map .sidebar {
+    position: relative;
+    width: 440px;
+    height: 100vh;
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#orphanages-map .sidebar .logo-sidebar {
+    width: 64px;
+    height: 72px;
+    margin-bottom: 50px;
+}
+
+#orphanages-map .sidebar h2 {
+    max-width: 233px;
+    line-height: 42px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+#orphanages-map .sidebar p {
+    max-width: 250px;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#orphanages-map .sidebar footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+#orphanages-map .sidebar footer strong {
+    font-weight: 800;
+}
+
+#orphanages-map .create-orphanage-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    
+    background: #15C3D6;
+    border-radius: 15px;
+
+    z-index: 10;
+
+    transition: all 0.3s;
+}
+
+#orphanages-map .create-orphanage-button:hover {
+    background: #17d6eb;
+}
+
+#orphanages-map .leaflet-container {
+    z-index: 5;
+}
+
+#orphanages-map .marker-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+#orphanages-map .marker-popup .leaflet-popup-content {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#orphanages-map .marker-popup .leaflet-popup-content .popup-button {
+    width: 40px;
+    height: 40px;
+    background: #15C3D6;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orphanages-map .marker-popup .leaflet-popup-tip-container {
+    display: none;
+}
