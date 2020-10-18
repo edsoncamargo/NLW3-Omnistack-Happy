@@ -56,5 +56,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 Feito com ♥ by Rocketseat and me (I'm a student) :wave: [Faça parte da comunidade Rocketset também 😄](https://discordapp.com/invite/gCRAFhc)
-My portfolio https://edsoncamargo.dev/ 👾
+- My portfolio https://edsoncamargo.dev/ 👾
 
